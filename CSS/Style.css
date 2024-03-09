@@ -198,7 +198,7 @@
 }
 
 footer {
-  background-color: #f0f0f0;
+  background-color: #1360ee;
   padding: 20px;
   text-align: center;
   margin-top: 20px;
@@ -210,10 +210,15 @@ footer {
   margin: 0 10px;
 
   text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 17px;
 }
 
 .footer-links a:hover {
-  color: #007bff;
+  color: #ccc;
 }
 
 /* Start of the footer section */
