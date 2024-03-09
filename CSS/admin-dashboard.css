@@ -302,6 +302,54 @@
   padding-bottom: 10px;
 }
 
+/* start admission section */
+
+#pending-admissions-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#pending-admissions-table th,
+#pending-admissions-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.approve-btn,
+.reject-btn {
+  background-color: #4caf50; /* Example colors - adjust to fit your theme */
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.reject-btn {
+  background-color: #f44336;
+}
+
+.approve-btn:hover {
+  background-color: #45a049;
+}
+
+.reject-btn:hover {
+  background-color: #da190b;
+}
+
+.approve-admis {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pending-admission {
+  height: 600px;
+}
+
 /* start of footer section */
 
 footer {
