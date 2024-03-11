@@ -534,6 +534,21 @@ body {
   box-sizing: border-box;
 }
 
+/*end of the events pages */
+
+/* start the Notice pages */
+/* ... other styles ... */
+
+.notices-list {
+  margin-top: 20px;
+}
+
+.notice {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
 /* start of footer section */
 
 footer {
