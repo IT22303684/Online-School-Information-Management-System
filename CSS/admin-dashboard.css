@@ -372,6 +372,14 @@
   padding: 20px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  width: 614px;
+  text-align: center;
+  position: relative;
+  left: 280px;
+  top: 20px;
+  margin-bottom: 70px;
+
+  border: 2px solid black;
 }
 
 .form-group {
@@ -438,6 +446,92 @@
 
 #add-teacher-form button[type="submit"]:hover {
   background-color: #45a049;
+}
+
+/* start of the admin-Event-css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.dashboard-container {
+  display: flex;
+}
+
+/* Style your sidebar here */
+
+.content {
+  padding: 20px;
+  flex: 1;
+}
+
+.events-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.event-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 362px;
+}
+
+.add-event,
+.edit-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 15px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #f1260f;
+  color: white;
+  padding: 8px 15px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.event-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/*start of the Edit Event page */
+/* ... other styles ... */
+
+.form-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #000000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
 }
 
 /* start of footer section */
