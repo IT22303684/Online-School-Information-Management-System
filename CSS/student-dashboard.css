@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-header {
+  width: 100%;
+  height: 69px;
+  flex-shrink: 0;
+  background: #1360ee;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 1px 2px 3px 2px;
+  z-index: 10000;
+}
+
+.nav > ul a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  display: inline-block;
+}
+
+.nav > ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.nav > ul li a:hover {
+  color: #000;
+  border-radius: 8px;
+}
+
+.loginBtn {
+  width: 121.821px;
+  height: 27px;
+  flex-shrink: 0;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background: #fff;
+  color: #090808;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 4px;
+  margin-right: 100px;
+}
+
+.loginBtn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.logoName {
+  color: #fff;
+  text-align: center;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-left: 30px;
+  display: inline-block;
+  margin-right: 413px;
+}
+
+.fa-solid {
+  padding-right: 15px;
+  color: white;
+}
+
+/* end of the header */
+
+.main-section {
+  border: 2px solid black;
+  position: relative;
+  height: 600px;
+}
+
+.side-menu {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29.906px;
+  flex-shrink: 0;
+  border-radius: 15.633px;
+  background: linear-gradient(
+    0deg,
+    #1360ee 80.26%,
+    rgba(146, 95, 226, 0) 143.39%,
+    #e2d4f7 143.39%
+  );
+
+  width: 250px;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+
+.main-space {
+  border: 2px solid black;
+  height: 200px;
+  margin-left: 280px;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+
+  border-radius: 100px;
+  border: 1px solid #000;
+  background: url(../Assert/Student-main/studentProfilePic.jpg) lightgray 50% /
+    cover no-repeat;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 32px;
+}
+
+.side-menu > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 29.906px;
+  margin-top: 20px;
+}
+
+.side-menu > ul li {
+  display: flex;
+  gap: 20px;
+}
+
+.side-menu > ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.side-menu > ul li a:hover {
+  color: #000;
+  border-radius: 8px;
+}
+
+/* 
+start the main section */
+
+.main-banner {
+  width: 100%;
+  height: 167px;
+  flex-shrink: 0;
+
+  border-radius: 15.633px;
+  background: linear-gradient(99deg, #1360ee 53.12%, #dfcff7 155.43%);
+  box-shadow: 5.211px 5.211px 31.266px 5.211px rgba(0, 0, 0, 0.08);
+}
+
+.date {
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18.422px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  right: 40%;
+  padding-top: 10px;
+}
+
+.main-banner > h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.msg {
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18.422px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.banner-img {
+  display: inline-block;
+  position: relative;
+  top: -123px;
+  left: 72%;
+}
+
+/* start of footer section */
+
+footer {
+  background-color: #1360ee;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 2px solid black;
+}
+
+.footer-links a {
+  display: inline-block;
+  margin: 0 10px;
+
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 17px;
+}
+
+.footer-links a:hover {
+  color: #ccc;
+}
