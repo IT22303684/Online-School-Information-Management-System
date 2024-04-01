@@ -80,9 +80,7 @@
 /* end of the header */
 
 .main-section {
-  border: 2px solid black;
   position: relative;
-  height: 600px;
 }
 
 .side-menu {
@@ -103,12 +101,12 @@
   );
 
   width: 250px;
-  margin-top: 16px;
+
   margin-left: 10px;
 }
 
 .main-space {
-  border: 2px solid black;
+  /* border: 2px solid black; */
 
   margin-left: 280px;
   margin-top: 18px;
@@ -216,6 +214,7 @@ start the main section */
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 .notice-list {
@@ -249,6 +248,37 @@ start the main section */
 
 .view-all {
   text-align: right;
+}
+
+/* ... Existing styles ... */
+
+.homework-section {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.homework-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.homework-item {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.view-button {
+  background-color: #007bff; /* Example color */
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 /* start of footer section */
