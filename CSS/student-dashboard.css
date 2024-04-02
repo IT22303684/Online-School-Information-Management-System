@@ -296,9 +296,10 @@ start the main section */
 }
 
 .profile-main {
-  border: 2px solid black;
+  border: 1px solid black;
   padding-left: 20px;
   padding-right: 20px;
+  box-shadow: 0px 2px 5px 0px;
 }
 
 .profile-main > h1 {
@@ -309,6 +310,7 @@ start the main section */
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-top: 20px;
 }
 
 .student-pic {
@@ -352,7 +354,7 @@ start the main section */
   display: inline-block;
   width: 600px;
   position: relative;
-  left: 20%;
+  left: 13%;
   top: 20%;
   padding: 20px;
   border-radius: 20px;
@@ -361,6 +363,7 @@ start the main section */
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   margin-top: 39px;
+  margin-bottom: 45px;
 }
 
 .personal-details > form > input {
@@ -369,6 +372,175 @@ start the main section */
   margin-bottom: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
+}
+
+.personal-details > form > button {
+  width: 100%;
+  height: 40px;
+  background-color: #1360ee;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.change-password {
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 587px;
+  position: relative;
+  left: 38%;
+  border-radius: 17px;
+  padding: 31px;
+  display: inline-block;
+}
+
+.change-password > h1 {
+  color: #333;
+  text-align: center;
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.change-password > form > input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.change-password > form > button {
+  width: 100%;
+  height: 40px;
+  background-color: #1360ee;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.delete-account {
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 587px;
+  position: relative;
+  left: 38%;
+  border-radius: 17px;
+  padding: 31px;
+  display: inline-block;
+
+  border-radius: 17px;
+  padding: 31px;
+  display: inline-block;
+  margin-top: 20px;
+  width: 303px;
+  position: relative;
+  left: -53%;
+  top: -121px;
+}
+
+.delete-account > h1 {
+  color: #333;
+  text-align: center;
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.delete-account > form > input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.deleteBtn {
+  width: 100%;
+  height: 40px;
+  background-color: #e3290c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.exam-results {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.exam-results > h1 {
+  color: #333;
+  text-align: center;
+
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.exam-results > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.exam-results > table th {
+  background-color: #1360ee;
+  color: #fff;
+  padding: 10px;
+}
+
+.exam-results > table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.exam-results > table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.exam-results > table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.exam-results > table tr:hover td {
+  color: #333;
+}
+
+.exam-results > h2 {
+  color: #666;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.exam-results > h3 {
+  color: #0f0f0f;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* start of footer section */

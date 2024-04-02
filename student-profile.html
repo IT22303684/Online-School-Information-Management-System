@@ -3,6 +3,9 @@
     <head>
         <title>Student Dashboard</title>
         <link rel="stylesheet" href="./CSS/student-dashboard.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap"
+            rel="stylesheet">
 
     </head>
     <body>
@@ -62,51 +65,110 @@
 
                 <div class="personal-details">
                     <h2>Personal Details</h2>
-                    <form action="#" method="get">
-                        <label for="fname">First Name:</label><br>
-                        <input type="text" id="fname" name="fname"
-                            value="Dasun"  ><br>
-                        <label for="lname">Last Name:</label><br>
-                        <input type="text" id="lname" name="lname"
-                            value="Tharuka"><br>
-                        <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="email" value="dasun@gmail.com"/>
-                        <br>
-                        <label for="phone">Phone:</label><br>
+
+                    <form action="#" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name"
+                            value="Dasun Tharuka" disabled>
+                        <label for="grade">Grade:</label>
+                        <input type="text" id="grade" name="grade" value="10"
+                            disabled>
+                        <label for="class">Class:</label>
+                        <input type="text" id="class" name="class" value="A"
+                            disabled>
+                        <label for="id">ID No:</label>
+                        <input type="text" id="id" name="id" value="123"
+                            disabled>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"
+                            value="dasun@gmail.com" disabled>
+                        <label for="phone">Phone:</label>
                         <input type="text" id="phone" name="phone"
-                            value="0772931811"><br>
-                        <label for="address">Address:</label><br>
-                        <input type="text" id="address" name="address"
-                            value="202/1 Matara"><br>
-                        <label for="dob">Date of Birth:</label><br>
-                        <input type="date" id="dob" name="dob"
-                            value="2003-01-01"><br>
-                            
-                    </form> 
-                    </div>
+                            value="0772931811" disabled>
+
+                        <button type="submit" class="editBtn">Edit</button>
+
+                    </form>
+
                 </div>
+
+                <div class="change-password">
+                    <h2>Change Password</h2>
+                    <form action="#" method="post">
+                        <label for="current-password">Current Password:</label>
+                        <input type="password" id="current-password"
+                            name="current-password" required>
+                        <label for="new-password">New Password:</label>
+                        <input type="password" id="new-password"
+                            name="new-password" required>
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password"
+                            name="confirm-password" required>
+
+                        <button type="submit" class="changeBtn">Change</button>
+                    </form>
+                </div>
+
+                <div class="delete-account">
+                    <h2>Delete Account</h2>
+                    <p>Are you sure you want to delete your account?</p>
+                    <a href="#"><button class="deleteBtn">Delete</button></a>
+                </div>
+
+                <div class="exam-results">
+                    <h2>Exam Results</h2>
+                    <h3>Term 1</h3>
+                    <h3>Grade: 10</h3>
+                    <h3>Class: A</h3>
+                    <h3>Year: 2023</h3>
+                    <table>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Grade</th>
+
+                        </tr>
+                        <tr>
+                            <td>Maths</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Science</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>English</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>History</td>
+                            <td>C</td>
+                        </tr>
+                    </table>
+
+                </div>
+
             </div>
 
         </section>
 
         <footer>
             <div class="footer-links">
-                        <a href="about.html">About Us</a>
-                        <a href="contact.html">Contact Us</a>
-                        <a href="faq.html">FAQ</a>
-                        <a href="terms.html">Terms & Condition</a>
-                        <a href="privacy.html">Privacy Policy</a>
-                    </div>
-                    <div class="footer-contact">
-                        <p>Phone: 0772931811</p>
-                        <p>Email: Sliit@gmail.com</p>
-                        <p>Address: 202/1 Matara</p>
-                    </div>
-                    <div class="copyright">
-                        <p>&copy; 2023 Online School Management System. All
-                            rights
-                            reserved.</p>
-                    </div>
-                </footer>
-            </body>
-        </html>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="faq.html">FAQ</a>
+                <a href="terms.html">Terms & Condition</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <div class="footer-contact">
+                <p>Phone: 0772931811</p>
+                <p>Email: Sliit@gmail.com</p>
+                <p>Address: 202/1 Matara</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Online School Management System. All
+                    rights
+                    reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
